@@ -24,7 +24,7 @@ body{
 	font: 130%/1.3 TrebuchetMS,Arial,sans-serif;  /* Default fonts */
 	text-align: left; /* Alignment of the text */
 	color: black; /* Main text color */
-	background: white; /* Main text background color */
+	background: blue; /* Main text background color */
 	padding-bottom: 20px; /* You can set padding or margin for one side of an element at a time */
 }
 
@@ -56,10 +56,11 @@ div.section {
 
 /* If we want the divs with ids plan and more to look the same, we can put them together */
 #plan, #more {
-	background:#000080;
-	color: white;
-	font: 'Source Sans Pro',Arial, Sans-Serif;
-	background-image: none;  /* replace none with url('image-url') to set a background image  */
+	background:#800080;
+	color: orange;
+	font: Arial, Sans-Serif, 'Source Sans Pro';
+	background-image: url("http://animalia-life.com/data_images/dog/dog5.jpg");  /* replace none with url('image-url') to set a background image  */
+        background-size:  100%
 }
 
 /* You can alter the links within a div with the following syntax */
